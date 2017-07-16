@@ -1,0 +1,173 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Adjustment Entity",
+        "description": "Structure of an adjustment entity and adjustment-related entities",
+        "license": {
+            "name": "MIT"
+        }
+    },
+    "definitions": {
+        "Adjustment": {
+            "type": "object",
+            "description": "An adjustment process started by an insurance agent",
+            "required": [
+                "adjustment_id",
+                "claim_id",
+                "start_date",
+                "end_date"
+            ],
+            "properties": {
+                "adjustment_id": {
+                    "type": "uuid"
+                },
+                "claim_id": {
+                    "type": "uuid"
+                },
+                "start_date": {
+                    "type": "date-time"
+                },
+                "end_date": {
+                    "type": "date-time"
+                }
+            }
+        },
+        "AdjustmentState": {
+            "type": "object",
+            "description": "The state of the adjustment in the adjusting phase",
+            "required": [],
+            "properties": {
+                "adjustment_state_id": {
+                    "type": "uuid"
+                },
+                "state": {
+                    "type": "string",
+                    "enum": [
+                        "IN_PROGRESS",
+                        "COMPLETED",
+                        "CLOSED_REJECTED",
+                        "CLOSED_VOIDED"
+                    ]
+                },
+                "added_date": {
+                    "type": "date-time"
+                }
+            }
+        },
+        "AdjustmentDetail": {
+            "type": "object",
+            "description": "Data analyzed by the agent that will assist in determining the settlement",
+            "required": [
+                "adjustment_detail_id",
+                "adjustment_id",
+                "adjustment_detail_type",
+                "adjustment_state"
+            ],
+            "properties": {
+                "adjustment_detail_id": {
+                    "type": "uuid"
+                },
+                "adjustment_id": {
+                    "type": "uuid"
+                },
+                "adjustment_detail_type": {
+                    "type": "string",
+                    "enum": [
+                        "DAMAGE_ASSESSMENT",
+                        "POLICE_REPORT_ASSESSMENT",
+                        "SUPPLEMENTAL_ASSESSMENT"
+                    ]
+                }
+            }
+        },
+        "DamageAssessment": {
+            "type": "object",
+            "description": "Agent's assessment of damage on vehicle",
+            "required": [
+                "damage_assessment_id",
+                "damage_type",
+                "assessment_value",
+                "added_date"
+            ],
+            "properties": {
+                "damage_assessment_id": {
+                    "type": "uuid"
+                },
+                "damage_type": {
+                    "type": "string",
+                    "enum": [
+                        "DIRECT_REAR_DAMAGE",
+                        "INDIRECT_REAR_DAMAGE",
+                        "DIRECT_FRONT_DAMAGE",
+                        "INDIRECT_FRONT_DAMAGE",
+                        "DRIVER_SIDE_DAMAGE",
+                        "PASSENGER_SIDE_DAMAGE",
+                        "ANIMAL_DAMAGE",
+                        "WEATHER_DAMAGE",
+                        "VANDALISM_THEFT_CRIMINAL_DAMAGE"
+                    ]
+                },
+                "assessment_value": {
+                    "type": "number",
+                    "format": "int64"
+                },
+                "added_date": {
+                    "type": "date-time"
+                }
+            }
+        },
+        "PoliceReportAssessment": {
+            "type": "object",
+            "description": "Agent's assessment of police reports",
+            "required": [
+                "police_report_assessment_id",
+                "report_entry_type",
+                "assessment_value",
+                "added_date"
+            ],
+            "properties": {
+                "police_report_assessment_id": {
+                    "type": "uuid"
+                },
+                "report_entry_type": {
+                    "type": "string",
+                    "enum": [
+                        "PARTY_AT_FAULT"
+                    ]
+                },
+                "assessment_value": {
+                    "type": "number",
+                    "format": "int64"
+                },
+                "added_date": {
+                    "type": "date-time"
+                }
+            }
+        },
+        "SupplementalAssessment": {
+            "type": "object",
+            "description": "Agent's assessment based on guidelines of the insurance company and government regulations",
+            "required": ["supplemental_assessment_id", "supplemental_entry_type", "assessment_value", "added_date"],
+            "properties": {
+                "supplemental_assessment_id": {
+                    "type": "uuid"
+                },
+                "supplemental_entry_type": {
+                    "type": "string",
+                    "enum": [
+                        "ASSESSED_VEHICLE_VALUE",
+                        "ASSESSED_FAULT"
+                    ]
+                },
+                "assessment_value": {
+                    "type": "number",
+                    "format": "int64"
+                },
+                "added_date": {
+                    "type": "date-time"
+                }
+            }
+        }
+    }
+}

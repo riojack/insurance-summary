@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Claim Entity",
+        "description": "Structure of a claim entity",
+        "license": {
+            "name": "MIT"
+        }
+    },
+    "definitions": {
+        "Claim": {
+            "type": "object",
+            "description": "A claim a policyholder is making against the insurance company",
+            "required": ["claim_id", "policy_id"],
+            "properties": {
+                "claim_id": {
+                    "type": "uuid"
+                },
+                "policy_id": {
+                    "type": "uuid"
+                },
+                "submission_date": {
+                    "type": "date-time"
+                }
+            }
+        }
+    }
+}

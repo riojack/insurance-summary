@@ -1,0 +1,46 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Policyholder Entity",
+        "description": "Structure of a policyholder entity",
+        "license": {
+            "name": "MIT"
+        }
+    },
+    "definitions": {
+        "Policyholder": {
+            "type": "object",
+            "description": "A policyholder is a person or organization that holds a policy... obviously",
+            "required": ["policyholder_id", "added_date"],
+            "properties": {
+                "policyholder_id": {
+                    "type": "uuid"
+                },
+                "added_date": {
+                    "type": "date-time"
+                }
+            }
+        },
+        "PolicyholderDetails": {
+            "type": "object",
+            "description": "Additional details about the policyholder",
+            "required": ["policyholder_detail_id", "detail_type", "detail_value"],
+            "properties": {
+                "policyholder_detail_id": {
+                    "type": "uuid"
+                },
+                "detail_type": {
+                    "type": "string",
+                    "enum": ["FIRST_NAME", "LAST_NAME", "MIDDLE_NAME", 
+                        "PHYSICAL_ADDRESS_LINE_1", "PHYSICAL_ADDRESS_LINE_2", "PHYSICAL_ADDRESS_LINE_3",
+                        "MAILING_ADDRESS_LINE_1", "MAILING_ADDRESS_LINE_2", "MAILING_ADDRESS_LINE_3",
+                        "DATE_OF_BIRTH"]
+                },
+                "detail_value": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

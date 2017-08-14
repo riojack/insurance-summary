@@ -1,0 +1,10 @@
+{
+    "damage_type": "WEATHER_DAMAGE",
+    "entries": [{
+        "numeric_value": 1,
+        "comment": "No damage"
+    }, {
+        "numeric_value": 200,
+        "comment": "Total loss"
+    }]
+}

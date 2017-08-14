@@ -1,0 +1,10 @@
+{
+    "damage_type": "DRIVER_SIDE_DAMAGE",
+    "entries": [{
+        "numeric_value": 1,
+        "comment": "No damage"
+    }, {
+        "numeric_value": 200,
+        "comment": "Total loss"
+    }]
+}

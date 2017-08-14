@@ -1,0 +1,10 @@
+{
+    "damage_type": "DIRECT_FRONT_DAMAGE",
+    "entries": [{
+        "numeric_value": 1,
+        "comment": "No damage"
+    }, {
+        "numeric_value": 200,
+        "comment": "Total loss"
+    }]
+}

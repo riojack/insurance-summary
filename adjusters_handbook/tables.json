@@ -1,0 +1,38 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Table Entity",
+        "description": "Structure of a data table, which defines values for damage types",
+        "license": {
+            "name": "MIT"
+        }
+    },
+    "definitions": {
+        "Table": {
+            "type": "object",
+            "description": "A description of a damage type and values",
+            "required": ["damage_type", "entries"],
+            "properties": {
+                "damage_type": {
+                    "type": "string"
+                },
+                "entries": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "description": "Describes the value",
+                        "properties": {
+                            "numeric_value": {
+                                "type": "int64"
+                            },
+                            "comment": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

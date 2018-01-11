@@ -5,6 +5,6 @@
         "comment": "No damage"
     }, {
         "numeric_value": 200,
-        "comment": "Total loss"
+        "comment": "Death of one or more vehicle occupants and total loss of vehicle"
     }]
 }

@@ -1,10 +1,20 @@
 {
     "damage_type": "VANDALISM_THEFT_CRIMINAL_DAMAGE",
     "entries": [{
-        "numeric_value": 1,
-        "comment": "No damage"
-    }, {
-        "numeric_value": 200,
-        "comment": "Death of one or more vehicle occupants and total loss of vehicle"
-    }]
+            "numeric_value": 1,
+            "comment": "Theft or attempted theft resulting to damage"
+        },
+        {
+            "numeric_value": 90,
+            "comment": "Theft or attempted theft of one or more tires including hubcap, hub, braking apparatus, regenerative apparatus"
+        },
+        {
+            "numeric_value": 100,
+            "comment": "Theft causing vehicle immobilization, exclude theft of tires"
+        },
+        {
+            "numeric_value": 200,
+            "comment": "Death of one or more vehicle occupants and total loss of vehicle"
+        }
+    ]
 }

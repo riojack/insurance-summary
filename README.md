@@ -10,3 +10,12 @@ Each link below details what happens in each phase: claim reporting, adjusting, 
 2. [Adjusting](adjusting.md)
 3. [Settling](settling.md)
 4. Paying out
+
+## Personas
+
+- Ciara, Customer Success
+  - Her...
+- Kerry, Claims Representative
+  - His...
+- Arya, Adjusting & Settling Specialist
+  - Her... (Needle!)

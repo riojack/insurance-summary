@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-3 {
+        fill: #ff7d4d;
+        font-size: 65px;
+      }
+
+      .cls-3, .cls-7 {
+        font-family: HelveticaNeue-Thin, Helvetica Neue;
+        font-weight: 200;
+      }
+
+      .cls-4 {
+        fill: #707070;
+      }
+
+      .cls-4, .cls-8 {
+        font-size: 34px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #549cc9;
+        font-size: 45px;
+      }
+
+      .cls-8 {
+        fill: #a8a8a8;
+      }
+
+      .cls-9 {
+        stroke: #707070;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1858" height="150"/>
+    </clipPath>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-2">
+    <rect class="cls-6" width="1920" height="1080"/>
+    <text id="Account_Dashboard" data-name="Account Dashboard" class="cls-3" transform="translate(74 63)"><tspan x="0" y="0">Account Dashboard</tspan></text>
+    <text id="Welcome_Angela_Smith_" data-name="Welcome, Angela Smith!" class="cls-4" transform="translate(74 109)"><tspan x="0" y="0">Welcome, Angela Smith!</tspan></text>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-5" transform="translate(74 157)">
+      <g id="Group_2" data-name="Group 2" transform="translate(-150 -287)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-6" width="390" height="170" transform="translate(150 287)"/>
+        <g id="Group_1" data-name="Group 1" transform="translate(-789 7)">
+          <text id="AAA-BBBBB-CC" class="cls-7" transform="translate(1012 362)"><tspan x="0" y="0">AAA-BBBBB-CC</tspan></text>
+          <text id="Vehicle_Policy" data-name="Vehicle Policy" class="cls-8" transform="translate(1012 404)"><tspan x="0" y="0">Vehicle Policy</tspan></text>
+          <path id="Path_1" data-name="Path 1" class="cls-9" d="M12.759,0H56.286V79H0V14.033H12.759Z" transform="translate(945 327)"/>
+        </g>
+      </g>
+      <g id="Group_2-2" data-name="Group 2" transform="translate(314 -287)">
+        <rect id="Rectangle_1-2" data-name="Rectangle 1" class="cls-6" width="390" height="170" transform="translate(150 287)"/>
+        <g id="Group_1-2" data-name="Group 1" transform="translate(-789 7)">
+          <text id="AAA-BBBBB-CC-2" data-name="AAA-BBBBB-CC" class="cls-7" transform="translate(1012 362)"><tspan x="0" y="0">AAA-BBBBB-CC</tspan></text>
+          <text id="Vehicle_Policy-2" data-name="Vehicle Policy" class="cls-8" transform="translate(1012 404)"><tspan x="0" y="0">Vehicle Policy</tspan></text>
+          <path id="Path_1-2" data-name="Path 1" class="cls-9" d="M12.759,0H56.286V79H0V14.033H12.759Z" transform="translate(945 327)"/>
+        </g>
+      </g>
+      <g id="Group_2-3" data-name="Group 2" transform="translate(778 -287)">
+        <rect id="Rectangle_1-3" data-name="Rectangle 1" class="cls-6" width="390" height="170" transform="translate(150 287)"/>
+        <g id="Group_1-3" data-name="Group 1" transform="translate(-789 7)">
+          <text id="AAA-BBBBB-CC-3" data-name="AAA-BBBBB-CC" class="cls-7" transform="translate(1012 362)"><tspan x="0" y="0">AAA-BBBBB-CC</tspan></text>
+          <text id="Vehicle_Policy-3" data-name="Vehicle Policy" class="cls-8" transform="translate(1012 404)"><tspan x="0" y="0">Vehicle Policy</tspan></text>
+          <path id="Path_1-3" data-name="Path 1" class="cls-9" d="M12.759,0H56.286V79H0V14.033H12.759Z" transform="translate(945 327)"/>
+        </g>
+      </g>
+      <g id="Group_2-4" data-name="Group 2" transform="translate(1242 -287)">
+        <rect id="Rectangle_1-4" data-name="Rectangle 1" class="cls-6" width="390" height="170" transform="translate(150 287)"/>
+        <g id="Group_1-4" data-name="Group 1" transform="translate(-789 7)">
+          <text id="AAA-BBBBB-CC-4" data-name="AAA-BBBBB-CC" class="cls-7" transform="translate(1012 362)"><tspan x="0" y="0">AAA-BBBBB-CC</tspan></text>
+          <text id="Vehicle_Policy-4" data-name="Vehicle Policy" class="cls-8" transform="translate(1012 404)"><tspan x="0" y="0">Vehicle Policy</tspan></text>
+          <path id="Path_1-4" data-name="Path 1" class="cls-9" d="M12.759,0H56.286V79H0V14.033H12.759Z" transform="translate(945 327)"/>
+        </g>
+      </g>
+      <g id="Group_2-5" data-name="Group 2" transform="translate(1706 -287)">
+        <rect id="Rectangle_1-5" data-name="Rectangle 1" class="cls-6" width="390" height="170" transform="translate(150 287)"/>
+        <g id="Group_1-5" data-name="Group 1" transform="translate(-789 7)">
+          <text id="AAA-BBBBB-CC-5" data-name="AAA-BBBBB-CC" class="cls-7" transform="translate(1012 362)"><tspan x="0" y="0">AAA-BBBBB-CC</tspan></text>
+          <text id="Vehicle_Policy-5" data-name="Vehicle Policy" class="cls-8" transform="translate(1012 404)"><tspan x="0" y="0">Vehicle Policy</tspan></text>
+          <path id="Path_1-5" data-name="Path 1" class="cls-9" d="M12.759,0H56.286V79H0V14.033H12.759Z" transform="translate(945 327)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

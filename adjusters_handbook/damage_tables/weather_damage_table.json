@@ -3,7 +3,12 @@
     "entries": [{
         "numeric_value": 1,
         "comment": "No damage"
-    }, {
+    },
+    {
+        "numeric_value": 190,
+        "comment": "Total loss of vehicle from natural event"
+    },
+    {
         "numeric_value": 200,
         "comment": "Death of one or more vehicle occupants and total loss of vehicle"
     }]

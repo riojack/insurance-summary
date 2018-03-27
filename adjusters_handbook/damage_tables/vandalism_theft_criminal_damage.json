@@ -2,7 +2,7 @@
     "damage_type": "VANDALISM_THEFT_CRIMINAL_DAMAGE",
     "entries": [{
             "numeric_value": 1,
-            "comment": "Theft or attempted theft resulting to damage"
+            "comment": "Theft or attempted theft resulting in no damage"
         },
         {
             "numeric_value": 90,
@@ -10,11 +10,11 @@
         },
         {
             "numeric_value": 100,
-            "comment": "Theft causing vehicle immobilization, exclude theft of tires"
+            "comment": "Theft or attempted causing vehicle immobilization"
         },
         {
             "numeric_value": 200,
-            "comment": "Death of one or more vehicle occupants and total loss of vehicle"
+            "comment": "Theft or attempted theft resulting in death of one or more vehicle occupants and total loss of vehicle"
         }
     ]
 }
